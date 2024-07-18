@@ -1,29 +1,8 @@
 # Long-rains-effect-on-Bean-Leaves
-Summarizes disease severity and incidence on bean leaves across five counties in western region by combining several statistical procedures in R.
-## average disease incidence and viral disease severity per county and subcounty N/B Incidence is (%) and severity is scale (1-3)
-County	Sub-County	Incidence (%)	Severity (1-3)
-Bungoma	Bungoma	9.30	1.05
-Bungoma	Bungoma Central	18.00	1.50
-Bungoma	Bungoma N/S	10.00	1.00
-Bungoma	Bungoma West	14.60	1.10
-Bungoma	Mayanja -kibuke	16.80	1.50
-Busia	Butula	18.00	1.40
-Busia	Matayos	14.50	1.80
-Kakamega	Kakamega East	17.48	1.48
-Kakamega	Kakamega South	18.67	1.67
-Kakamega	Kakamega West	22.80	1.67
-Kakamega	Lugari	14.47	1.47
-Nandi	Nandi South	7.00	1.30
-Vihiga	Hamisi	23.70	1.85
-Vihiga	Sabatia	10.00	1.00
+Summarizes disease severity and incidence on bean leaves across five counties in western region by combining tests for significant differences between disease severity and incidences in the counties and sub counties studied. Regression analysis was also performed to establish the relationship between disease incidence and severity and by what extend. Find the publication here https://docs.google.com/document/d/12FYNgXLz0Ek89fBqbaYe-iquax2TMVte/edit?usp=sharing&ouid=113647396333517765932&rtpof=true&sd=true
 ## Test for significance differences in disease incidence in counties
 H0: μ1. = μ2. =⋯= μr
-County	Incidence1/50	Incidence 2/50	Incidence 3/50	Incidence 4/50	Incidence 5/50
-Bungoma	15.47	16.40	16.13	16.67	17.13
-Busia	17.33	17.00	18.33	19.00	18.00
-Kakamega	14.82	19.76	18.12	18.88	18.88
-Nandi	15	15	11	14	17.5
-Vihiga	10.6	14	11.6	9.4	12
+![Screenshot 2024-07-18 035848](https://github.com/user-attachments/assets/ca3a6dd4-99d1-48be-a3fc-c841b12d10ad)
 ![Screenshot 2024-07-18 034357](https://github.com/user-attachments/assets/94b5d492-8c19-43fd-8180-53de11b58cf5)
 H0: there is no significant difference in counties incidence rates.
 Since the p-value for the counties = 1.72E-05< .05 = α we reject the null hypothesis, and so at the 95% level of confidence we conclude there is significant difference in the counties incident rates.
@@ -43,12 +22,7 @@ Vihiga-Nandi
 all pairwise comparisons are not significant with an adjusted p-value > 0.05. This indicates significant differences in incidence rates for the interaction between the following counties mentioned above. 
 
 ## Test for significance differences in disease severity in counties
-County	Severity 1	Severity 2	Severity 3	Severity 4	Severity 5
-Bungoma	1.33	1.20	1.27	1.47	1.40
-Busia	1.67	1.67	1.67	1.67	1.33
-Kakamega	1.47	1.59	1.53	1.59	1.53
-Nandi	2	2	1.5	1.5	2
-Vihiga	1.4	1.4	1.2	1.2	1.4
+![Screenshot 2024-07-18 035926](https://github.com/user-attachments/assets/88453b44-e8a6-4a8d-b131-c77cceb91247)
 
 H0: μ1. = μ2. =⋯= μr
 ![Screenshot 2024-07-18 034609](https://github.com/user-attachments/assets/2f4266e3-6e03-44a8-baf0-ee9ac27c14c9)
@@ -71,20 +45,8 @@ all pairwise comparisons are not significant with an adjusted p-value > 0.05. Th
 
 ## Test for significance differences in disease incidence in sub-counties
 H0: μ1. = μ2. =⋯= μr
-Sub Counties	Incidence1/50	Incidence 2/50	Incidence 3/50	Incidence 4/50	Incidence 5/50
-Bungoma	8	9.5	10.5	9.5	9
-Bungoma Central	16.75	19.75	16.75	18.75	18
-Bungoma West	12.5	18	15.5	12.5	14.5
-Mayanja -kibuke	15	20	15.5	15.5	18
-Butula	20	10	15	20	25
-Matayos	15	15	11	14	17.5
-Kakamega East	13.375	22.375	16.75	17.375	17.5
-Kakamega South	20	15.66666667	20.33333333	20	17.33333333
-Kakamega West	18.33333333	26	23.33333333	22.66666667	23.66666667
-Lugari	10	10.66666667	14.33333333	18	19.33333333
-Nandi South	6.5	7.5	8.5	5.5	7
-Hamisi	23	22.75	22.5	24.25	26
-Sabatia	10	15	10	5	10
+![Screenshot 2024-07-18 040025](https://github.com/user-attachments/assets/d341321e-969e-4273-8e9d-ccfbf72dce95)
+
 ![Screenshot 2024-07-13 105043](https://github.com/user-attachments/assets/577a8e14-acc4-442d-b925-03844625008a)
 H0: there is no significant difference in sub-counties.
 Since the p-value for the sub-counties = 4.61E-14< .05 = α we reject the null hypothesis, and so at the 95% level of confidence we conclude that the difference in sub-counties is significant.
@@ -111,20 +73,7 @@ Nandi South-Matayos
 Nandi South-Mayanja -kibuke    
 all pairwise comparisons are significant with an adjusted p-value < 0.05. This indicates no significant differences in incidence rates between the counties listed above.  
 ## Test for significance differences in disease severity in sub-counties
-Sub Counties	Severity 1	Severity 2	Severity 3	Severity 4	Severity 5
-Bungoma	1	1	1	1	1.25
-Bungoma Central	1.75	1.25	1.25	1.75	1.5
-Bungoma West	1	1	1	1.5	1
-Mayanja -kibuke	1.5	2	1.5	1	1.5
-Butula	1	1	2	1	2
-Matayos	2	2	1.5	1.5	2
-Kakamega East	1.375	1.625	1.5	1.5	1.375
-Kakamega South	1.666666667	1.666666667	1.333333333	2	1.666666667
-Kakamega West	1.666666667	1.666666667	1.666666667	1.666666667	1.666666667
-Lugari	1.333333333	1.333333333	1.666666667	1.333333333	1.666666667
-Nandi South	1.5	1	1	1.5	1.5
-Hamisi	1.75	2	1.75	2	1.75
-Sabatia	1	1	1	1	1
+![Screenshot 2024-07-18 040124](https://github.com/user-attachments/assets/f45053e1-ceb5-4e1a-b5eb-294302729a3f)
 ![Screenshot 2024-07-13 114142](https://github.com/user-attachments/assets/e8f3cfa5-b9d2-4b79-9a54-6253a4693586)
 
 H0: there is no significant difference in sub-counties.
