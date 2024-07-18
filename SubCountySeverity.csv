@@ -1,0 +1,66 @@
+Sub Counties,Severity,Rate
+Bungoma,Severity 1,1
+Bungoma Central,Severity 1,1.75
+Bungoma West,Severity 1,1
+Mayanja -kibuke,Severity 1,1.5
+Butula,Severity 1,1
+Matayos,Severity 1,2
+Kakamega East,Severity 1,1.375
+Kakamega South,Severity 1,1.666666667
+Kakamega West,Severity 1,1.666666667
+Lugari,Severity 1,1.333333333
+Nandi South,Severity 1,1.5
+Hamisi,Severity 1,1.75
+Sabatia,Severity 1,1
+Bungoma,Severity 2,1
+Bungoma Central,Severity 2,1.25
+Bungoma West,Severity 2,1
+Mayanja -kibuke,Severity 2,2
+Butula,Severity 2,1
+Matayos,Severity 2,2
+Kakamega East,Severity 2,1.625
+Kakamega South,Severity 2,1.666666667
+Kakamega West,Severity 2,1.666666667
+Lugari,Severity 2,1.333333333
+Nandi South,Severity 2,1
+Hamisi,Severity 2,2
+Sabatia,Severity 2,1
+Bungoma,Severity 3,1
+Bungoma Central,Severity 3,1.25
+Bungoma West,Severity 3,1
+Mayanja -kibuke,Severity 3,1.5
+Butula,Severity 3,2
+Matayos,Severity 3,1.5
+Kakamega East,Severity 3,1.5
+Kakamega South,Severity 3,1.333333333
+Kakamega West,Severity 3,1.666666667
+Lugari,Severity 3,1.666666667
+Nandi South,Severity 3,1
+Hamisi,Severity 3,1.75
+Sabatia,Severity 3,1
+Bungoma,Severity 4,1
+Bungoma Central,Severity 4,1.75
+Bungoma West,Severity 4,1.5
+Mayanja -kibuke,Severity 4,1
+Butula,Severity 4,1
+Matayos,Severity 4,1.5
+Kakamega East,Severity 4,1.5
+Kakamega South,Severity 4,2
+Kakamega West,Severity 4,1.666666667
+Lugari,Severity 4,1.333333333
+Nandi South,Severity 4,1.5
+Hamisi,Severity 4,2
+Sabatia,Severity 4,1
+Bungoma,Severity 5,1.25
+Bungoma Central,Severity 5,1.5
+Bungoma West,Severity 5,1
+Mayanja -kibuke,Severity 5,1.5
+Butula,Severity 5,2
+Matayos,Severity 5,2
+Kakamega East,Severity 5,1.375
+Kakamega South,Severity 5,1.666666667
+Kakamega West,Severity 5,1.666666667
+Lugari,Severity 5,1.666666667
+Nandi South,Severity 5,1.5
+Hamisi,Severity 5,1.75
+Sabatia,Severity 5,1

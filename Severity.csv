@@ -1,0 +1,26 @@
+County,Severity,Rate
+Bungoma,Severity 1,1.33
+Busia,Severity 1,1.67
+Kakamega,Severity 1,1.47
+Nandi,Severity 1,2
+Vihiga,Severity 1,1.4
+Bungoma,Severity 2,1.20
+Busia,Severity 2,1.67
+Kakamega,Severity 2,1.59
+Nandi,Severity 2,2
+Vihiga,Severity 2,1.4
+Bungoma,Severity 3,1.27
+Busia,Severity 3,1.67
+Kakamega,Severity 3,1.53
+Nandi,Severity 3,1.5
+Vihiga,Severity 3,1.2
+Bungoma,Severity 4,1.47
+Busia,Severity 4,1.67
+Kakamega,Severity 4,1.59
+Nandi,Severity 4,1.5
+Vihiga,Severity 4,1.2
+Bungoma,Severity 5,1.40
+Busia,Severity 5,1.33
+Kakamega,Severity 5,1.53
+Nandi,Severity 5,2
+Vihiga,Severity 5,1.4
