@@ -1,4 +1,9 @@
 # Long-rains-effect-on-Bean-Leaves
+
+## About
+
+This research project examines bean-leaf disease incidence and severity across five counties in western Kenya, using statistical comparisons and regression to explore their relationship.
+
 Summarizes disease severity and incidence on bean leaves across five counties in western region by combining tests for significant differences between disease severity and incidences in the counties and sub counties studied. Regression analysis was also performed to establish the relationship between disease incidence and severity and by what extend. Find the publication here https://docs.google.com/document/d/12FYNgXLz0Ek89fBqbaYe-iquax2TMVte/edit?usp=sharing&ouid=113647396333517765932&rtpof=true&sd=true
 ## Test for significance differences in disease incidence in counties
 H0: μ1. = μ2. =⋯= μr
